@@ -1,0 +1,38 @@
+.reviews-title {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: -0.04em;
+    margin-bottom: 40px;
+}
+
+.reviews-item {
+    width: 100%;
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+}
+
+.reviews-name {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 4px;
+}
+
+.reviews-student {
+    font-size: 12px;
+    line-height: 1.3;
+    letter-spacing: -0.02em;
+    color: var(--privacy-text);
+}
+
+.reviews-text {
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+}
+
+.second-rv {
+    display: none;
+}
