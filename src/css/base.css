@@ -16,6 +16,8 @@
     /* Font's colors */
     --main-text: #FFFFFF;
     --accent-text: #BEA69E;
+    --button-text: #121212;
+    --privacy-text: rgba(255, 255, 255, 0.50);
   
     /* Background's colors */
     --main-bkgd: #121212;
@@ -27,6 +29,12 @@
     /* Border's colors */
     --main-border: rgba(255, 255, 255, 0.20);
     --bkgd-border: rgba(255, 255, 255, 0.70);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -83,5 +91,21 @@ body {
 @media screen and (min-width: 1440px) {
     .container {
         max-width: 1440px;
+    }
+}
+
+section {
+    padding: 0 0 80px 0;
+}
+
+@media screen and (min-width: 768px) {
+    section {
+        padding: 0 0 100px 0;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    section {
+        padding: 0 0 150px 0;
     }
 }
