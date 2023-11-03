@@ -13,6 +13,12 @@
     border: 1px solid rgba(255, 255, 255, 0.20);
 }
 
+.reviews-top-align {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
 .reviews-name {
     font-size: 20px;
     font-weight: 500;
