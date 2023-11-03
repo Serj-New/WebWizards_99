@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
     <script type="module" crossorigin src="/WebWizards_99/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/WebWizards_99/assets/index-0af9bd12.css">
+    <link rel="stylesheet" href="/WebWizards_99/assets/index-c41738ca.css">
   </head>
   <body>
     <!-- Сергій Н + Микола М -->
@@ -62,7 +62,24 @@
       <!--  -->
       <section class="mentors"></section>
       <!-- Леся Д -->
-      <section class="form"></section>
+      <section class="sign-up" id="sign-up">
+    <div class="container">
+        <h2 class="sign-up-title">Sign <span class='sign-up-title-part'>Up</span></h2>
+        <p class="sign-up-desc">Please use the form below to contact us. Enter your name, email, and message and
+            we'll get back to you shortly.</p>
+        <form action="POST" class="sign-up-form">
+            <input type="text" name="name" placeholder="Enter your name" class="sign-form-input" pattern="[A-Za-z]{3}"
+                title="Please enter your name.">
+            <input type="email" name="email" placeholder="Enter your email" class="sign-form-input"
+                pattern="^\\S+@\\S+\\.\\S+$" title="example@mail.com">
+            <textarea class="sign-form-input sign-up-textarea" placeholder="Message"></textarea>
+            <button class="sign-up-btn" type="submit">Send</button>
+            <p class="policies">By clicking on "Send" button, you agree to our <a href="#" class="policies-link">Privacy
+                    Policy</a>,
+                and allow Promodo to use this information for marketing purposes.</p>
+        </form>
+    </div>
+</section>
       <!-- Тоня Р -->
       <section class="reviews">
     <div class="container">
