@@ -2,6 +2,7 @@
 }
 .footer-container {
   padding-top: 40px;
+  padding-bottom: 20px;
   display: flex;
   flex-direction: column;
   gap: 40px;
@@ -16,6 +17,7 @@
   height: 20px;
 }
 .footer-logo-icon {
+  fill: var(--main-text);
 }
 .footer-contacts-list {
 }
