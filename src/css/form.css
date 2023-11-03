@@ -1,6 +1,6 @@
 .sign-up-title {
   color: var(--main-text);
-  font-size: 48px;
+  font-size: 28px;
   font-weight: 500;
   line-height: 32px;
   letter-spacing: -1.12px;
@@ -47,6 +47,7 @@
   padding: 14px 18px;
   color: var(--main-text);
   line-height: 20px;
+  opacity: 0.7;
 }
 
 .sign-up-btn {
@@ -68,4 +69,94 @@
 .sign-up-textarea {
   height: 112px;
   resize: none;
+}
+
+.sign-up-img-wrapper {
+    display: none;
+  }
+
+@media screen and (min-width: 768px) {
+  .sign-up {
+    max-width: 544px;
+  }
+
+  .sign-up-title {
+    font-size: 48px;
+    line-height: 54px;
+    letter-spacing: -1.92px;
+  }
+
+  .sign-up-desc {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.32px;
+    max-width: unset;
+  }
+
+  .policies {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .sign-form-input {
+    line-height: 20px;
+    font-size: 16px;
+    padding: 20px 18px;
+  }
+
+  .sign-form-input:not(:last-child) {
+    margin-bottom: 14px;
+  }
+
+  .sign-up-btn {
+    padding: 16px;
+    margin: 32px 0 20px;
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .sign-up-textarea {
+    height: 119px;
+    resize: none;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .sign-up {
+    max-width: unset;
+  }
+
+  .sign-up-inner {
+    display: flex;
+    gap: 60px;
+  }
+
+  .sign-up-img-wrapper {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 38px;
+    align-items: flex-end;
+  }
+
+  .sign-img-lens {
+    border-radius: 1000px;
+    background: var(--accent-bkgd);
+    width: 180px;
+    height: 288px;
+    padding: 76px 19px 62px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sign-img-camera {
+    width: 340px;
+    height: 540px;
+    border-radius: 1000px;
+    background: var(--second-bkgd);
+    padding: 156px 50px 88px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
 }
