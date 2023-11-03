@@ -5,7 +5,7 @@
     font-weight: normal;
     font-weight: 400;
     line-height: 1.25;
-    letter-spacing: -0.32px;
+    letter-spacing: 0.02em;
     
     font-synthesis: none;
     text-rendering: optimizeLegibility;
@@ -23,6 +23,7 @@
     --main-bkgd: #121212;
     --second-bkgd: #1D1D1D;
     --accent-bkgd: #BEA69E;
+    --camera-fill: #BEA69E66;
     --button-bkgd: #FFFFFF;
     --backdrop-bkgd: rgba(18, 18, 18, 0.40);
   
