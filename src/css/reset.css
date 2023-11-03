@@ -1,4 +1,10 @@
 /* Reset styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 h1,
 h2,
 h3,
@@ -13,6 +19,7 @@ p:last-child {
   margin-bottom: 0;
 }
 
+ol,
 ul {
   margin: 0;
   padding: 0;
