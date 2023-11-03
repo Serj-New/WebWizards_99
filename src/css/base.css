@@ -29,6 +29,7 @@
   
     /* Border's colors */
     --main-border: rgba(255, 255, 255, 0.20);
+    --focus-border: rgba(255, 255, 255, 0.50);
     --bkgd-border: rgba(255, 255, 255, 0.70);
 }
 

@@ -71,12 +71,16 @@
   width: 267px;
   height: 60px;
   border-radius: 12px;
+  border: none;
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 18px;
   color: var(--button-text);
   font-size: 16px;
   line-height: 1.25;
+}
+.footer-subscribe-email-input {
+  outline: none;
 }
 .footer-subscribe-btn {
   width: 60px;

@@ -49,6 +49,11 @@
   line-height: 20px;
 }
 
+.sign-form-input:focus {
+  border-color: var(--focus-border);
+  outline: none;
+}
+
 .sign-up-btn {
   width: 100%;
   display: flex;
