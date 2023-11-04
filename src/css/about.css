@@ -29,10 +29,19 @@ padding-bottom: 80px;
     letter-spacing: -0.04em;
 
 }
-.image{
-border-radius: 1000px;    
+.image{  
+width: 335px;     
+height: 209px;   
+overflow: hidden;    
 align-items: center;
 padding-bottom: 40px;
+}
+
+.photo{
+border-radius: 1000px;
+width: 100%;
+height: 100%;
+margin: 0 auto;
 
 }
 
