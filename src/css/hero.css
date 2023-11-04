@@ -4,10 +4,9 @@
     padding-top: 90px;
 }
 
-.container {}
-
 .hero-container {
     max-width: 335px;
+    min-height: 280px;
     height: 777px;
     padding: 40px 20px 0 20px;
     border-radius: 30px;
@@ -38,7 +37,7 @@
 .hero-students-reviews-wrap {
     display: flex;
     max-width: 253px;
-    gap: 40px;
+    justify-content: space-between;
 }
 
 .hero-students {}
@@ -161,7 +160,6 @@
     .hero-text {
         max-width: 418px;
         margin-bottom: 40px;
-
     }
 
     .hero-students-text {
@@ -184,18 +182,81 @@
         flex-direction: row;
         height: 56px;
         width: 231px;
-
     }
 
     .hero-students-list {
+        width: 137px;
+        height: 54px;
         margin-right: 12px;
+        margin-bottom: 0px;
+    }
+
+    .hero-students-item img {
+        width: 54px;
+        height: 54px;
+    }
+
+    .hero-students-item-1 {
+        left: 0;    
+    }
+    
+    .hero-students-item-2 {
+        left: 40px;    
+    }
+    
+    .hero-students-item-3 {
+        left: 83px;    
     }
 
     .hero-students-text-arrow {
         flex-direction: column;
+        gap: 0px;
+        position: relative;
     }
 
-    .hero-reviews {}
+    .hero-students-arrow {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        
+    }
+
+    .hero-reviews-item {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .hero-reviews-subtitle {
+        font-size: 16px;
+        line-height: 1.25;
+        letter-spacing: -0.04em;
+        margin-bottom: 8px;
+    }
+
+    .hero-reviews-number {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.25;
+        letter-spacing: -0.04em;
+    }
+
+    .hero-main_img {
+        width: 393px;
+        height: 434px;
+    }
+
+    /* .hero-main_img {
+        background-image: url(/img/hero/hero-main_img-1x-tab.png);
+        }
+        
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-main_img {
+        background-image: url(/img/hero/hero-main_img-2x-tab.png);
+        }
+    } */
+
 
 }
 
@@ -239,6 +300,25 @@
         line-height: 1.25;
         letter-spacing: -0.04em;
     }
+
+        .hero-main_img {
+            /* width: 397px;
+            height: 520px; */
+            left: 100%;
+            transform: translate(-100%, 0) scale(1);
+        }
+
+    /* .hero-main_img {
+        background-image: url(/img/hero/hero-main_img-1x-web.png);
+        }
+        
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-main_img {
+        background-image: url(/img/hero/hero-main_img-2x-web.png);
+        }
+    } */
 
 }
 
