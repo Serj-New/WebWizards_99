@@ -4,6 +4,7 @@
   font-weight: 500;
   line-height: 32px;
   letter-spacing: -1.12px;
+  margin-bottom: 20px;
 }
 
 .sign-up-title-part {
@@ -14,14 +15,19 @@
   font-size: 14px;
   line-height: 18px;
   letter-spacing: -0.28px;
-  margin: 20px 0;
+  margin-bottom: 40px;
   max-width: 295px;
 }
 
 .sign-up-form {
   display: flex;
   flex-direction: column;
-  margin-top: 40px;
+}
+
+.sign-input-wrapper {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
 }
 
 .sign-form-input:not(:last-child) {
@@ -32,6 +38,7 @@
   color: var(--privacy-text);
   font-size: 12px;
   line-height: 16px;
+  letter-spacing: normal;
 }
 
 .policies-link {
@@ -59,7 +66,7 @@
   border-radius: 12px;
   background: var(--button-bkgd);
   border: none;
-  margin: 32px 0 20px;
+  margin-bottom: 20px;
   color: var(--button-text);
   font-weight: 700;
   line-height: 20px;
@@ -72,12 +79,16 @@
 }
 
 .sign-up-img-wrapper {
-    display: none;
-  }
+  display: none;
+}
 
 @media screen and (min-width: 768px) {
   .sign-up {
     max-width: 544px;
+  }
+
+  .sign-up-form-wrapper {
+    max-width: 480px;
   }
 
   .sign-up-title {
@@ -110,7 +121,7 @@
 
   .sign-up-btn {
     padding: 16px;
-    margin: 32px 0 20px;
+    margin-bottom: 20px;
     font-size: 18px;
     line-height: 28px;
   }
@@ -128,7 +139,13 @@
 
   .sign-up-inner {
     display: flex;
-    gap: 60px;
+    justify-content: space-between;
+  }
+
+  .sign-up-desc {
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.32px;
   }
 
   .sign-up-img-wrapper {
@@ -143,10 +160,16 @@
     background: var(--accent-bkgd);
     width: 180px;
     height: 288px;
-    padding: 76px 19px 62px;
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+  }
+
+  .lens-img {
+    position: absolute;
+    left: 0%;
+    width: 170px;
   }
 
   .sign-img-camera {
@@ -159,4 +182,16 @@
 }
 
 @media screen and (min-width: 1440px) {
+  .sign-img-lens {
+    width: 190px;
+  }
+
+  .sign-img-camera {
+    width: 350px;
+    height: 540px;
+  }
+
+  .lens-img {
+    width: 180px;
+  }
 }
