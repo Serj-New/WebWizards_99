@@ -13,6 +13,10 @@
     border: 1px solid rgba(255, 255, 255, 0.20);
 }
 
+.stars-tab-position {
+    margin-bottom: 20px;
+}
+
 .reviews-top-align {
     display: flex;
     align-items: center;
@@ -36,20 +40,18 @@
 
 .reviews-stars {
     display: flex;
-    margin-bottom: 20px;
+    gap: 4px;
     margin-left: 66px;
 }
 
 .reviews-icon {
     fill: var(--accent-text);
+    stroke: var(--accent-text);
 }
 
-.reviews-icon:not(:last-child) {
-    margin-right: 4px;
-}
-
-.reviews-icon-last {
+.last-star {
     fill: var(--main-text);
+    stroke: var(--main-text);
     opacity: 20%;
 }
 
@@ -72,8 +74,21 @@
         margin-bottom: 50px;
     }
 
+    .stars-tab-position {
+        display: flex;
+    }
+
     .reviews-name {
         line-height: 1.4;
+    }
+
+    .reviews-stars {
+        margin-left: auto;
+    }
+
+    .reviews-icon {
+        width: 20px;
+        height: 20px;
     }
 
     .reviews-text {
