@@ -1,5 +1,5 @@
 .hero {
-    background-image:  url(/img/hero/Hero-back-mob.svg);
+    background-image: url(/img/hero/Hero-back-mob.svg);
     background-position: center;
     padding-top: 90px;
 }
@@ -41,19 +41,17 @@
     gap: 40px;
 }
 
-.hero-students {  
-}
+.hero-students {}
 
 .hero-students-list {
     position: relative;
     height: 44px;
     width: 109px;
     margin-bottom: 4px;
-    
+
 }
 
-.hero-students-item {
-}
+.hero-students-item {}
 
 .hero-students-text-arrow {
     display: flex;
@@ -67,13 +65,13 @@
     z-index: 2;
 }
 
-.hero-students-item-2{
+.hero-students-item-2 {
     position: absolute;
     left: 32px;
     z-index: 1;
 }
 
-.hero-students-item-3{
+.hero-students-item-3 {
     position: absolute;
     left: 64px;
     z-index: 0;
@@ -138,68 +136,66 @@
 
 @media screen and (min-width: 768px) {
 
-.hero {
-    background-image: url(/img/hero/Hero-back-tab.svg);
-    padding-top: 120px;
-}
+    .hero {
+        background-image: url(/img/hero/Hero-back-tab.svg);
+        padding-top: 120px;
+    }
 
-.hero-container {
-    max-width: 704px;
-    height: 900px;
-    padding: 64px 155px 0 32px;
-}
+    .hero-container {
+        max-width: 704px;
+        height: 900px;
+        padding: 64px 155px 0 32px;
+    }
 
-.hero-title {
-    font-size: 60px;
-    line-height: 1.07;
-    max-width: 517px;
-}
+    .hero-title {
+        font-size: 60px;
+        line-height: 1.07;
+        max-width: 517px;
+    }
 
-.hero-h1-italic {
-    font-size: 60px;
-    line-height: 1.07;
-}
+    .hero-h1-italic {
+        font-size: 60px;
+        line-height: 1.07;
+    }
 
-.hero-text {
-    max-width: 418px;
-    margin-bottom: 40px;
-    
-}
+    .hero-text {
+        max-width: 418px;
+        margin-bottom: 40px;
 
-.hero-students-text {
-    max-width: 82px;
-    font-size: 16px;
-    line-height: 1.25;
-    letter-spacing: -0.04em;
-}
+    }
 
-.hero-students-reviews-wrap {
-    display: flex;
-    justify-content: space-between;
-    max-width: 390px;
-    height: 56px;
-    margin-bottom: 0px;
-}
+    .hero-students-text {
+        max-width: 82px;
+        font-size: 16px;
+        line-height: 1.25;
+        letter-spacing: -0.04em;
+    }
 
-.hero-students {
-    display: flex;
-    flex-direction: row;
-    height: 56px;
-    width: 231px;
-    
-}
+    .hero-students-reviews-wrap {
+        display: flex;
+        justify-content: space-between;
+        max-width: 390px;
+        height: 56px;
+        margin-bottom: 0px;
+    }
 
-.hero-students-list {
-    margin-right: 12px;
-}
+    .hero-students {
+        display: flex;
+        flex-direction: row;
+        height: 56px;
+        width: 231px;
 
-.hero-students-text-arrow {
-    flex-direction: column;
-} 
+    }
 
-.hero-reviews {
-    
-}
+    .hero-students-list {
+        margin-right: 12px;
+    }
+
+    .hero-students-text-arrow {
+        flex-direction: column;
+    }
+
+    .hero-reviews {}
 
 }
 
@@ -209,40 +205,40 @@
 
 @media screen and (min-width: 1280px) {
 
-.hero {
-    background-image: url(/img/hero/Hero-back-d1.svg);
-    padding-top: 160px;
-}
+    .hero {
+        background-image: url(/img/hero/Hero-back-d1.svg);
+        padding-top: 160px;
+    }
 
-.hero-container {
-    max-width: 1080px;
-    height: 600px;
-    padding: 80px 50px 0 50px;
-}
+    .hero-container {
+        max-width: 1080px;
+        height: 600px;
+        padding: 80px 50px 0 50px;
+    }
 
-.hero-title {
-    font-size: 64px;
-    line-height: 1.06;
-    max-width: 563px;
-}
+    .hero-title {
+        font-size: 64px;
+        line-height: 1.06;
+        max-width: 563px;
+    }
 
-.hero-h1-italic {
-    font-size: 64px;
-    line-height: 1.06;
-}
+    .hero-h1-italic {
+        font-size: 64px;
+        line-height: 1.06;
+    }
 
-.hero-text {
-    max-width: 418px;
-    margin-bottom: 136px;
+    .hero-text {
+        max-width: 418px;
+        margin-bottom: 136px;
 
-}
+    }
 
-.hero-students-text {
-    max-width: 82px;
-    font-size: 16px;
-    line-height: 1.25;
-    letter-spacing: -0.04em;
-}
+    .hero-students-text {
+        max-width: 82px;
+        font-size: 16px;
+        line-height: 1.25;
+        letter-spacing: -0.04em;
+    }
 
 }
 
@@ -252,9 +248,9 @@
 
 @media screen and (min-width: 1440px) {
 
-.hero {
-    background-image: url(/img/hero/Hero-back-d2.svg);
-    padding-top: 160px;
-}
+    .hero {
+        background-image: url(/img/hero/Hero-back-d2.svg);
+        padding-top: 160px;
+    }
 
 }
