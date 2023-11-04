@@ -17,6 +17,7 @@
     display: flex;
     align-items: center;
     gap: 10px;
+    margin-bottom: 4px;
 }
 
 .reviews-name {
@@ -33,6 +34,25 @@
     color: var(--privacy-text);
 }
 
+.reviews-stars {
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: 66px;
+}
+
+.reviews-icon {
+    fill: var(--accent-text);
+}
+
+.reviews-icon:not(:last-child) {
+    margin-right: 4px;
+}
+
+.reviews-icon-last {
+    fill: var(--main-text);
+    opacity: 20%;
+}
+
 .reviews-text {
     font-size: 14px;
     line-height: 1.28;
@@ -41,4 +61,43 @@
 
 .second-rv {
     display: none;
+}
+
+@media screen and (min-width: 768px) {
+
+    .reviews-title {
+        font-size: 48px;
+        line-height: 1.12;
+        letter-spacing: -0.04em;
+        margin-bottom: 50px;
+    }
+
+    .reviews-name {
+        line-height: 1.4;
+    }
+
+    .reviews-text {
+        font-size: 16px;
+        line-height: 1.25;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+
+    .reviews-item {
+        max-width: 640px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+
+    .reviews-list {
+        display: flex;
+        gap: 20px;
+    }
+
+    .second-rv {
+        display: block;
+    }
 }
