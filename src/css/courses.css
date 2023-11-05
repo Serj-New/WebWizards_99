@@ -15,7 +15,7 @@ p {
   flex-direction: column;
   gap: 20px;
   margin-bottom: 40px;
-  width: 335px;
+  /* width: 335px; */
 }
 
 .courses-title {
@@ -34,6 +34,7 @@ p {
   color: var(--main-text);
   line-height: 1.29;
   letter-spacing: -0.02em;
+  /* max-width: 335px; */
 }
 
 .courses-list {
@@ -46,8 +47,8 @@ p {
 
 .courses-card {
   position: relative;
-  max-width: 335px;
-  height: 398px;
+  /* max-width: 335px; */
+  /* height: 398px; */
   flex-shrink: 0;
   padding: 88px 28px 28px 28px;
   border-radius: 12px;
@@ -112,8 +113,8 @@ p {
 }
 
 .courses-card-description {
-  width: 279px;
-  height: 54px;
+  /* max-width: 279px; */
+  /* height: 54px; */
   color: var(--focus-border);
   font-size: 14px;
   font-weight: 400;
