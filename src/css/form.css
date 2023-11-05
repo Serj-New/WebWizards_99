@@ -75,6 +75,12 @@
   text-transform: uppercase;
 }
 
+.sign-up-btn:hover {
+  background-color: var(--second-bkgd);
+  color: var(--accent-text);
+  transition: all 400ms ease;
+}
+
 .sign-up-textarea {
   height: 112px;
   resize: none;
@@ -156,44 +162,14 @@
     padding-bottom: 38px;
     align-items: flex-end;
   }
-
-  .sign-img-lens {
-    border-radius: 1000px;
-    background: var(--accent-bkgd);
-    width: 180px;
-    height: 288px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-  }
-
-  .lens-img {
-    position: absolute;
-    left: 0%;
-    width: 170px;
-  }
-
-  .sign-img-camera {
-    width: 340px;
-    height: 540px;
-    border-radius: 1000px;
-    background: var(--second-bkgd);
-    padding: 156px 50px 88px;
-  }
 }
 
 @media screen and (min-width: 1440px) {
-  .sign-img-lens {
-    width: 190px;
-  }
-
-  .sign-img-camera {
+  .camera-img {
     width: 350px;
-    height: 540px;
   }
 
   .lens-img {
-    width: 180px;
+    width: 190px;
   }
 }
