@@ -86,7 +86,6 @@
     padding: 20px 20px 0px 20px;
     display: flex;
     flex-direction: column;
-    
     visibility: hidden;
     pointer-events: none;
 }
@@ -95,8 +94,16 @@
     margin-left: auto;
     margin-bottom: 128px;
     border: none;
-    background-color: tomato;
+    background-color: transparent;
+    cursor: pointer;
 }
+
+.mob-close {
+    width: 32px;
+    height: 32px;
+    stroke: var(--main-bkgd);
+}
+
 .mob-nav-list {
     display: flex;
     flex-direction: column;
