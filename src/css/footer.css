@@ -227,13 +227,10 @@
     background-image: url(/img/footer/footer-d2.svg);
   }
   .footer-main-content {
-    gap: 135px;
+    gap: 191px;
   }
   .footer-links-container {
     gap: 100px;
-    margin-left: 206px;
-  }
-  .footer-subscribe-form {
-    gap: 33px;
+    margin-left: 150px;
   }
 }
