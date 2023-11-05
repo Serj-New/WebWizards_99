@@ -3,7 +3,7 @@
   font-size: 28px;
   font-weight: 500;
   line-height: 1.14;
-  letter-spacing: -1.12px;
+  letter-spacing: -0.04em;
   margin-bottom: 20px;
 }
 
@@ -12,7 +12,7 @@
 }
 
 .sign-up-desc {
-  letter-spacing: -0.28px;
+  letter-spacing: -0.02em;
   margin-bottom: 40px;
   max-width: 295px;
 }
@@ -96,7 +96,7 @@
   .sign-up-title {
     font-size: 48px;
     line-height: 1.12;
-    letter-spacing: -0.92px;
+    letter-spacing: -0.019em;
   }
 
   .sign-up-desc {
