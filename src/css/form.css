@@ -2,7 +2,7 @@
   color: var(--main-text);
   font-size: 28px;
   font-weight: 500;
-  line-height: 32px;
+  line-height: 1.14;
   letter-spacing: -1.12px;
   margin-bottom: 20px;
 }
@@ -12,8 +12,6 @@
 }
 
 .sign-up-desc {
-  font-size: 14px;
-  line-height: 18px;
   letter-spacing: -0.28px;
   margin-bottom: 40px;
   max-width: 295px;
@@ -37,7 +35,7 @@
 .policies {
   color: var(--privacy-text);
   font-size: 12px;
-  line-height: 16px;
+  line-height: 1.33;
   letter-spacing: normal;
 }
 
@@ -53,7 +51,6 @@
   background-color: transparent;
   padding: 14px 18px;
   color: var(--main-text);
-  line-height: 20px;
   opacity: 0.7;
 }
 
@@ -74,7 +71,7 @@
   margin-bottom: 20px;
   color: var(--button-text);
   font-weight: 700;
-  line-height: 20px;
+  line-height: 1.25;
   text-transform: uppercase;
 }
 
@@ -98,24 +95,18 @@
 
   .sign-up-title {
     font-size: 48px;
-    line-height: 54px;
-    letter-spacing: -1.92px;
+    line-height: 1.12;
+    letter-spacing: -0.92px;
   }
 
   .sign-up-desc {
-    font-size: 14px;
-    line-height: 20px;
-    letter-spacing: -0.32px;
+    font-size: 16px;
+    line-height: 1.25;
     max-width: unset;
   }
 
-  .policies {
-    font-size: 14px;
-    line-height: 18px;
-  }
-
   .sign-form-input {
-    line-height: 20px;
+    line-height: 1.25;
     font-size: 16px;
     padding: 20px 18px;
   }
@@ -128,7 +119,11 @@
     padding: 16px;
     margin-bottom: 20px;
     font-size: 18px;
-    line-height: 28px;
+    line-height: 1.55;
+  }
+
+  .policies {
+    font-size: 16px;
   }
 
   .sign-up-textarea {
@@ -148,9 +143,11 @@
   }
 
   .sign-up-desc {
-    font-size: 16px;
-    line-height: 20px;
-    letter-spacing: -0.32px;
+    line-height: 1.25;
+  }
+
+  .policies {
+    font-size: 14px;
   }
 
   .sign-up-img-wrapper {
