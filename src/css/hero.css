@@ -2,6 +2,7 @@
     background-image: url(/img/hero/Hero-back-mob.svg);
     background-position: center;
     padding-top: 90px;
+    
 }
 
 .hero-container {
@@ -12,6 +13,7 @@
     border-radius: 30px;
     background: #1D1D1D;
     position: relative;
+    z-index: -1;
 }
 
 .hero-title {
@@ -122,6 +124,8 @@
 }
 
 .hero-main_img {
+    width: 259px;
+    height: 314px;
     margin-top: auto;
     position: absolute;
     bottom: 0;
@@ -302,10 +306,9 @@
     }
 
         .hero-main_img {
-            /* width: 397px;
-            height: 520px; */
-            left: 100%;
-            transform: translate(-100%, 0) scale(1);
+            width: 397px;
+            height: 520px;
+            
         }
 
     /* .hero-main_img {
