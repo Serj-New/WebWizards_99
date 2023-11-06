@@ -12,14 +12,16 @@
 
 .about-title {
     margin-bottom: 40px;
-    color: #BEA69E;
+    color: var(--main-text);
     font-size: 28px;
+    font-weight: 500;
     line-height: 1.14;
     letter-spacing: -0.04em;
+    margin-bottom: 20px;
 }
 
 .about-title-span {
-    color: #FFF;
+    color: var(--accent-text);
 }
 
 .about-div-image {
