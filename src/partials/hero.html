@@ -29,7 +29,8 @@
                             <img srcset="
                                         /img/hero/hero-img3-x1-min.png 1x,
                                         /img/hero/hero-img3-x2-min.png 2x
-                                        " src="/img/hero/hero-img3-x1-min.png" alt="girl front view" width="44" height="44">
+                                        " 
+                                        src="/img/hero/hero-img3-x1-min.png" alt="girl front view" width="44" height="44">
                         </li>
                     </ul>
                     <a href="" class="hero-students-text-arrow">
@@ -53,12 +54,31 @@
                 </div>
             </div>
             
-            <img class="hero-main_img" 
+            <picture class=".hero-main_img">
+                <source 
+                    media="(max-width: 375px)" srcset="
+                    /img/hero/hero-main_img-1x-mob.png 1x, 
+                    /img/hero/hero-main_img-2x-mob.png 2x" 
+                    />
+                <source 
+                    media="(max-width: 768px)" srcset="
+                    /img/hero/hero-main_img-1x-tab.png 1x, 
+                    /img/hero/hero-main_img-2x-tab.png 2x" 
+                    />
+                <source 
+                    media="(max-width: 1280px)" srcset="
+                    /img/hero/hero-main_img-1x-web.png 1x, 
+                    /img/hero/hero-main_img-2x-web.png 2x" />
+                <img src="/img/hero/hero-main_img-1x-mob.png" alt="a red-haired guy with a camera">
+            </picture>
+            
+            <!-- <img class="hero-main_img" 
             srcset="
             /img/hero/hero-main_img-1x-mob.png 1x,
             /img/hero/hero-main_img-2x-mob.png 2x
             "
-            src="/img/hero/hero-main_img-1x-mob.png" alt="a red-haired guy with a camera" width="259" height="314">
+            src="/img/hero/hero-main_img-1x-mob.png" alt="a red-haired guy with a camera" width="259" height="314"
+            > -->
         </div>
     </div>
 
