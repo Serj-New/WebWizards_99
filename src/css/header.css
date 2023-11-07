@@ -220,6 +220,11 @@
     .mob-nav-list {
         gap: 28px;
     }
+
+    .mob-menu-img {
+        width: 476px;
+        height: 480px;
+    }
     
 }
 
