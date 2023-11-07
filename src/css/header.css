@@ -109,7 +109,8 @@
     top: 0;
     right: 0;
     width: 218px;
-    height: 812px;
+    min-height: 690px;
+    height: 100vh;
     background-color: #BEA69E;    
     display: flex;
     flex-direction: column;
@@ -210,7 +211,8 @@
     /********* Mobile-menu **********/
     .mob-menu {
         width: 480px;
-        height: 1024px;       
+        min-height: 880px;
+        height: 100vh;       
     }
     .mob-menu-content {
         padding: 20px 32px 0px 64px;

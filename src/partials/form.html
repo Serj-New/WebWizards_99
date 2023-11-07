@@ -8,9 +8,9 @@
                 <form action="POST" class="sign-up-form">
                     <div class="sign-input-wrapper">
                         <input type="text" name="name" placeholder="Enter your name" class="sign-form-input"
-                            pattern="[A-Za-z]{3}" title="Please enter your name.">
+                            pattern="[a-zA-Z]+[a-zA-Z]+{3,}" title="Please enter your name." required>
                         <input type="email" name="email" placeholder="Enter your email" class="sign-form-input"
-                            pattern="^\\S+@\\S+\\.\\S+$" title="example@mail.com">
+                            pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" title="example@mail.com" required>
                         <textarea class="sign-form-input sign-up-textarea" placeholder="Message"></textarea>
                     </div>
                     <button class="sign-up-btn" type="submit">Send</button>

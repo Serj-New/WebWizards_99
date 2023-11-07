@@ -33,6 +33,10 @@
     --bkgd-border: rgba(255, 255, 255, 0.70);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
