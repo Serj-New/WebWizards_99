@@ -12,3 +12,11 @@
       refs.modal.classList.toggle('is-open');
     }
   })();
+  
+  let mobileWrapper = document.querySelector('.mob-backdrop');
+
+  mobileWrapper.addEventListener('click', (e) => {
+    if(mobileWrapper.classList.contains('mob-backdrop')) {
+      mobileWrapper.classList.remove('is-open');
+    }
+  })
