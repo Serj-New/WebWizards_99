@@ -132,11 +132,8 @@
 }
 
 .hero-main_img {
-    width: 259px;
-    height: 314px;
     display: flex;
     margin-top: auto;
-    
 }
 
 
@@ -254,24 +251,11 @@
         letter-spacing: -0.04em;
     }
 
-    .hero-main_img {
+    .hero-main_img img {
         width: 393px;
         height: 434px;
        
     }
-
-    /* .hero-main_img {
-        background-image: url(/img/hero/hero-main_img-1x-tab.png);
-        }
-        
-    @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    .hero-main_img {
-        background-image: url(/img/hero/hero-main_img-2x-tab.png);
-        }
-    } */
-
 
 }
 
@@ -318,22 +302,10 @@
         letter-spacing: -0.04em;
     }
 
-    .hero-main_img {
+    .hero-main_img img {
         width: 397px;
         height: 520px;
     }
-
-    /* .hero-main_img {
-        background-image: url(/img/hero/hero-main_img-1x-web.png);
-        }
-        
-    @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-    .hero-main_img {
-        background-image: url(/img/hero/hero-main_img-2x-web.png);
-        }
-    } */
 
 }
 
