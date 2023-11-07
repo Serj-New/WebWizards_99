@@ -13,10 +13,11 @@
     }
   })();
   
-  let mobileWrapper = document.querySelector('.mob-backdrop');
+  let mobileItems = document.querySelectorAll('.mob-nav-list-item');
+  let mobBackdrop = document.querySelector('.mob-backdrop');
 
-  mobileWrapper.addEventListener('click', (e) => {
-    if(mobileWrapper.classList.contains('mob-backdrop')) {
-      mobileWrapper.classList.remove('is-open');
+  mobileItems.forEach(item => item.addEventListener('click', () => {
+    if(mobBackdrop.classList.contains('is-open')) {
+      mobBackdrop.classList.remove('is-open');
     }
-  })
+  }));
