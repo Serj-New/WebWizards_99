@@ -112,20 +112,19 @@
 
     .about-div {
         display: flex;
-        gap: 50px;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-between;
         align-items: flex-start;
     }
 
     .about-title {
-    font-size: 48px;
-    line-height: 1.125;
-    letter-spacing: -0.08em;
+        font-size: 48px;
+        line-height: 1.125;
+        letter-spacing: -0.08em;
     }
 
     .about-div-image {
-
+        margin-bottom: 0;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -133,18 +132,49 @@
     }
 
     .about-image {
-        width: 560px;
-        height: 240px;
+        width: 488px;
+        height: 260px;
     }
 
     .about-text {
         display: flex;
         flex-direction: row;
-        gap: 40px;
+        gap: 20px;
         color: #FFF;
         font-size: 16px;
         line-height: 1.25;
         letter-spacing: -0.02em;
+        max-width: 552px;
+    }
+
+
+    .about-text-one {
+        max-width: 268px;
+    }
+
+    .about-text-two {
+        max-width: 264px;
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+    .about{
+        max-width: 1440px;
+    }
+
+    .about-div {
+        align-items: center;
+    }
+
+    .about-image {
+        width: 560px;
+        height: 220px;
+    }
+    
+    .about-text {
+        gap: 40px;
+        max-width: 630px;
     }
 
     .about-text-one {
@@ -153,12 +183,5 @@
 
     .about-text-two {
         max-width: 276px;
-    }
-
-}
-
-@media screen and (min-width: 1440px) {
-    .about{
-        max-width: 1440px;
     }
 }
