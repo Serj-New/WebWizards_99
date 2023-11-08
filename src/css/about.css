@@ -61,8 +61,6 @@
 @media screen and (min-width: 768px) {
     .about {
         max-width: 768px;
-        padding-left: 32px;
-        padding-right: 32px;
     }
 
     .about-title {
@@ -110,8 +108,6 @@
 @media screen and (min-width: 1280px) {
     .about {
         max-width: 1270px;
-        padding-left: 15px;
-        padding-right: 15px;
     }
 
     .about-div {
